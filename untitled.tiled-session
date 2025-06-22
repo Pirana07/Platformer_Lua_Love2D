@@ -1,0 +1,123 @@
+{
+    "activeFile": "Simple-Tiled-Implementation-master/tests/tsx/may.tsx",
+    "expandedProjectPaths": [
+        "Simple-Tiled-Implementation-master",
+        "Simple-Tiled-Implementation-master/tests/tmx",
+        "Simple-Tiled-Implementation-master/tests",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx": {
+            "scale": 1.1615234374999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.2582814864639,
+                "y": 512.2582814864639
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx#collection": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx#empty": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx": {
+            "scale": 1.401829268292683,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 403.7581557198782,
+                "y": 328.1426707264028
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx#hex1": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx": {
+            "scale": 0.8329710144927536,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 552.2401043932146,
+                "y": 552.2401043932144
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx#iso": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx": {
+            "scale": 1.6439453124999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.1824878222645,
+                "y": 342.4688131163123
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx": {
+            "scale": 0.7743489583333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 255.69867159912553,
+                "y": 255.69867159912565
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx": {
+            "scale": 2.1919270833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384.1368658666983,
+                "y": 256.8516098372342
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx": {
+            "scale": 0.908695652173913,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 506.22009569377985,
+                "y": 506.2200956937799
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx#iso": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tsx/collection.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "openFiles": [
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx",
+        "Simple-Tiled-Implementation-master/tests/tsx/collection.tsx",
+        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx",
+        "Simple-Tiled-Implementation-master/tests/tsx/collection.tsx",
+        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx"
+    ]
+}

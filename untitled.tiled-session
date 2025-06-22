@@ -1,19 +1,34 @@
 {
-    "activeFile": "Simple-Tiled-Implementation-master/tests/tsx/may.tsx",
+    "activeFile": "Map/tmx/1.tmx",
     "expandedProjectPaths": [
-        "Simple-Tiled-Implementation-master",
-        "Simple-Tiled-Implementation-master/tests/tmx",
+        "Simple-Tiled-Implementation-master/tests/tsx",
         "Simple-Tiled-Implementation-master/tests",
-        "."
+        "Map",
+        ".",
+        "Map/tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx"
     ],
-    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "": {
+            "scaleInDock": 2
+        },
+        "Map/tmx/1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 349.5,
+                "y": 107
+            }
+        },
+        "Map/tmx/1.tmx#DungeonTiles": {
+            "scaleInDock": 4
+        },
         "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx": {
             "scale": 1.1615234374999999,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 512.2582814864639,
-                "y": 512.2582814864639
+                "x": 511.82781234235756,
+                "y": 511.82781234235756
             }
         },
         "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx#collection": {
@@ -26,8 +41,8 @@
             "scale": 1.401829268292683,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 403.7581557198782,
-                "y": 328.1426707264028
+                "x": 888.8386254893431,
+                "y": 465.1065680730752
             }
         },
         "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx#hex1": {
@@ -37,8 +52,8 @@
             "scale": 0.8329710144927536,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 552.2401043932146,
-                "y": 552.2401043932144
+                "x": 552.2401043932144,
+                "y": 381.1657242279251
             }
         },
         "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx#iso": {
@@ -49,14 +64,14 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 512.1824878222645,
-                "y": 342.4688131163123
+                "y": 255.7870975406915
             }
         },
         "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx": {
             "scale": 0.7743489583333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 255.69867159912553,
+                "x": 255.0529678829663,
                 "y": 255.69867159912565
             }
         },
@@ -64,15 +79,15 @@
             "scale": 2.1919270833333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 384.1368658666983,
-                "y": 256.8516098372342
+                "x": 384.1368658666984,
+                "y": 191.8403231555186
             }
         },
         "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx": {
             "scale": 0.908695652173913,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 506.22009569377985,
+                "x": 505.6698564593302,
                 "y": 506.2200956937799
             }
         },
@@ -95,29 +110,28 @@
             "scaleInEditor": 1
         }
     },
+    "last.imagePath": "D:/Old PC/NEwPc/Unity Assets/Dungeon16",
+    "map.lastUsedFormat": "tmx",
     "openFiles": [
-        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
-        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx",
-        "Simple-Tiled-Implementation-master/tests/tsx/collection.tsx",
-        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx"
+        "Map/tmx/1.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
-        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
-        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx",
+        "Map/tmx/1.tmx",
+        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx",
         "Simple-Tiled-Implementation-master/tests/tsx/collection.tsx",
-        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx"
-    ]
+        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
 }

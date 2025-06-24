@@ -1,4 +1,8 @@
 {
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
     "activeFile": "Map/tmx/1.tmx",
     "expandedProjectPaths": [
         "Simple-Tiled-Implementation-master/tests/tsx",
@@ -8,20 +12,24 @@
         "Map/tmx",
         "Simple-Tiled-Implementation-master/tests/tmx"
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
-            "scaleInDock": 2
+            "scaleInDock": 1
         },
         "Map/tmx/1.tmx": {
-            "scale": 3,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 349.5,
-                "y": 107
+                "x": 293.75,
+                "y": 128
             }
         },
         "Map/tmx/1.tmx#DungeonTiles": {
             "scaleInDock": 4
+        },
+        "Map/tmx/1.tmx#Tiles": {
+            "scaleInEditor": 1
         },
         "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx": {
             "scale": 1.1615234374999999,
@@ -110,8 +118,14 @@
             "scaleInEditor": 1
         }
     },
-    "last.imagePath": "D:/Old PC/NEwPc/Unity Assets/Dungeon16",
+    "last.exportedFilePath": "C:/Users/Administrator/Desktop/Platformer_Lua_Love2D/Map",
+    "last.imagePath": "C:/Users/Administrator/Desktop/Platformer_Lua_Love2D/Assets",
+    "map.height": 23,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
     "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 40,
     "openFiles": [
         "Map/tmx/1.tmx"
     ],

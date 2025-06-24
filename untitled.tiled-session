@@ -130,6 +130,7 @@
         "Map/tmx/1.tmx"
     ],
     "project": "untitled.tiled-project",
+    "property.type": "bool",
     "recentFiles": [
         "Map/tmx/1.tmx",
         "Simple-Tiled-Implementation-master/tests/tsx/may.tsx",

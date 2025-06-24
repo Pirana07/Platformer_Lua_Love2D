@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="6">
  <editorsettings>
   <export target="../1.lua" format="lua"/>
  </editorsettings>
@@ -33,4 +33,13 @@
 0,0,0,0,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup color="#66ff00" id="2" name="solid">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <object id="1" x="65.5" y="240.5" width="127" height="126.5"/>
+  <object id="3" x="271.5" y="204.75" width="49" height="20"/>
+  <object id="4" x="255" y="300.5" width="49" height="20"/>
+  <object id="5" x="352" y="252.5" width="49" height="20"/>
+ </objectgroup>
 </map>

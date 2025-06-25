@@ -6,10 +6,14 @@ function Player:load()
     self.width = 20
     self.height = 60
     self.xVel = 0
-    self.yVel = 100
+    self.yVel = 0
     self.maxSpeed = 200
     self.acceleration = 4000
     self.friction = 3500
+    self.gravity = 1500
+    self.jumpAmount = -500
+    
+    self.grounded = false
 
     self.physics = {}
     self.physics.body = love.physics.newBody(World, self.x, self.y, "dynamic")
@@ -21,7 +25,16 @@ end
 function Player:update(dt)
     self:syncPhysics()
     self:move(dt)
+    self:applyGravity(dt)
 end
+
+function Player:applyGravity(dt)
+    if not self.grounded then
+    self.yVel = self.yVel + self.gravity * dt
+
+    end
+end
+
 
 function Player:move(dt)
     if love.keyboard.isDown("d", "right") then
@@ -60,8 +73,6 @@ function Player:applyFriction(dt)
         end
     end
 
-
-
 end--
 
 
@@ -69,6 +80,45 @@ function Player:syncPhysics()
     self.x, self.y = self.physics.body:getPosition()
     self.physics.body:setLinearVelocity(self.xVel, self.yVel)
 end
+
+
+function Player:beginContact(a, b, collision)
+    if self.grounded == true then return end
+   local nx, ny =  collision:getNormal()
+   if a == self.physics.fixture then
+        if ny > 0 then
+            self:land(collision)
+        end
+    elseif b == self.physics.fixture then
+        if ny < 0 then
+            self:land(collision)
+        end
+   end
+end
+
+function Player:jump(key) 
+    if (key == "up" or key == "space") and self.grounded then
+        self.yVel = self.jumpAmount
+        self.grounded = false
+    end
+end
+
+
+function Player:land(collision)
+    self.currentGroundCollision = collision
+    self.yVel = 0
+    self.grounded = true
+end
+
+
+function Player:endContact(a, b, collision)
+   if a == self.physics.fixture or b == self.physics.fixture then
+      if self.currentGroundCollision == collision then
+         self.grounded = false
+      end
+   end
+end
+
 
 function Player:draw()
     love.graphics.rectangle("fill", self.x - self.width / 2, self.y - self.height / 2, self.width, self.height)

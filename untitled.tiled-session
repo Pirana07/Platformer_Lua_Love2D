@@ -5,12 +5,12 @@
     },
     "activeFile": "Map/tmx/1.tmx",
     "expandedProjectPaths": [
-        "Map",
-        "Map/tmx",
-        "Simple-Tiled-Implementation-master/tests/tsx",
         ".",
-        "Simple-Tiled-Implementation-master/tests/tmx",
-        "Simple-Tiled-Implementation-master/tests"
+        "Map",
+        "Simple-Tiled-Implementation-master/tests/tsx",
+        "Map/tmx",
+        "Simple-Tiled-Implementation-master/tests",
+        "Simple-Tiled-Implementation-master/tests/tmx"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -18,11 +18,11 @@
             "scaleInDock": 1
         },
         "Map/tmx/1.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 346.25,
-                "y": 169.5
+                "x": 405.8333333333333,
+                "y": 339.33333333333326
             }
         },
         "Map/tmx/1.tmx#DungeonTiles": {
